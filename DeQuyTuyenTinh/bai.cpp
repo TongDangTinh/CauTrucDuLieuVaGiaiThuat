@@ -5,3 +5,13 @@ int factorial(int n) {
     return 1;
   return n*factorial(n-1);
 }
+
+int main(int argc, char const *argv[])
+{
+  int n;
+  cout>> "Nhap n"
+  cin<< n;
+  int kq = factorial(n)
+  cout<<n<<"!="<<kq
+  return 0;
+}

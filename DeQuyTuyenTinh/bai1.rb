@@ -9,6 +9,5 @@ def factorial(n)
     end
   end
 end
-
-puts factorial(10).to_i
-
+ 
+puts "The result of factorial is  #{factorial(10).to_i}"
